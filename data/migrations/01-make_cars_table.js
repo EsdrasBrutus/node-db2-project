@@ -11,8 +11,7 @@ exports.up = function (knex, Promise) {
     tbl.decimal('mileage')
       .notNullable()
     tbl.string('title')
-    tbl.string('transmission')
-      
+    tbl.string('transmission')  
   })
 };
 
